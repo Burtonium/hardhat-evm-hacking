@@ -40,7 +40,7 @@ async function deploy() {
   const balanceSeeder = (balances: (bigint | string)[]) => seedBalances(
     tokenAddress,
     account.address,
-    tokenIds.map((id, idx) => [id, balances[idx]?.toString()] as [string, string])
+    tokenIds.map((id, idx) => [id, balances[idx]?.toString() ?? '0'] as [string, string])
   );
 
   return {
