@@ -2,9 +2,9 @@
 
 Welcome to my GitHub repository for my comprehensive guide on direct EVM (Ethereum Virtual Machine) storage manipulation to streamline smart contract testing. This repository serves as a practical extension to my Medium article of the same title as above. Here, I showcase mildly advanced techniques that allow developers to interact directly with the EVM's storage layer, enabling more efficient and targeted testing processes.
 
-## Dive Deeper with Hands-on Challenges
+## Hands-on Challenge
 
-For those who are eager to test their skills and implement EVM storage manipulation functions themselves, I encourage you to check out the solve-yourself branch. This branch has a failing test case to offer you a practical challenge, allowing you to apply the concepts and techniques discussed without direct guidance.
+For those who are eager to test their skills and implement EVM storage manipulation functions themselves, I encourage you to check out the `solve-yourself` branch. This branch has a failing test case allowing you to apply the concepts and techniques discussed without direct guidance.
 
 ```console
 git checkout solve-yourself
